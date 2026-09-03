@@ -7,5 +7,6 @@
 
 @theme {
     --color-success: #15d54f;
-
+    --color-primary: #0b0f2a;
+    --color-background: #fff9e6;
 }
