@@ -12,27 +12,16 @@ export default function App() {
 
     <SafeAreaView className="flex-1 bg-background p-5">
 
-      <Text className="text-xl font-bold text-success">
-
-        Welcome to Nativewind!
-
+      <Text className="text-5xl font-jakarta-extrabold text-primary">
+        Home
       </Text>
 
-      <Link href="/onboarding" className="bg-blue-600 text-black rounded-2xl mt-5">Go to onboarding</Link>
+      <Link href="/onboarding" className=" bg-primary text-white p-4 rounded-2xl mt-5">Go to onboarding</Link>
 
-      <Link href="/(auth)/sign-in" className="bg-blue-600 text-black rounded-2xl mt-5">Go to sign in</Link>
+      <Link href="/(auth)/sign-in" className=" bg-primary text-white p-4 rounded-2xl mt-5">Go to sign in</Link>
 
-      <Link href="/(auth)/sign-up" className="bg-blue-600 text-black rounded-2xl mt-5">Go to sing up</Link>
+      <Link href="/(auth)/sign-up" className=" bg-primary text-white p-4 rounded-2xl mt-5">Go to sing up</Link>
 
-      <Link href="/subscriptions/spotify" className="bg-blue-600 text-black rounded-2xl mt-5">Spotify subscription</Link>
-
-      <Link href={{
-
-        pathname: "/subscriptions/[id]",
-
-        params: { id: "cluade" }
-
-      }} className="bg-blue-600 text-black rounded-2xl mt-5">Claude Max subscription</Link>
 
     </SafeAreaView>
 

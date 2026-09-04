@@ -9,4 +9,12 @@
     --color-success: #15d54f;
     --color-primary: #0b0f2a;
     --color-background: #fff9e6;
+
+    --font-jakarta: "JakartaRegular";
+    --font-jakarta-medium: "JakartaMedium";
+    --font-jakarta-semibold: "JakartaSemiBold";
+    --font-jakarta-bold: "JakartaBold";
+    --font-jakarta-extrabold: "JakartaExtraBold";
+    --font-jakarta-light: "JakartaLight";
+    --font-jakarta-extralight: "JakartaExtraLight";
 }
